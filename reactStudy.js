@@ -59,3 +59,16 @@ class HelloMessage extends Component {
   * 组件间通讯:1、父子组件间通讯,可通过props属性传递，在父组件给子组件设置props,然后子组建通过props访问到父组建的数据和方法
   * 非父子组件通讯使用全局事件Pu/Sub模式，在componentDidMount里面订阅时间，
   */
+
+  /**
+   * react事件机制(事件注册,事件触发)
+   * ReactEventListener:负责事件注册和事件分发。reacr将DOM事件全都注册到document节点上,事件分发主要调用dispatchEvent进行,
+   * ReactEventEmitter:负责每个组件上事件的执行
+   * EventPluginHub:负责回调函数的存储
+   * 事件注册:
+   */
+
+   /**
+    * react组件之间的通讯 
+    * 
+    * */
