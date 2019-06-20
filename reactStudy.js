@@ -46,5 +46,17 @@ class HelloMessage extends Component {
  * webpack
  * 1、可以看作模块打包机:分析项目结构，找到javascript 模块以及其它的一些浏览器不能直接运行的拓展语言，并将其转换和打包为合适的格式供浏览器使用
  */
-//
+
+ /**
+  * React组件
+  * props:组件的属性，由外部通过JSX属性传入设置
+  * state:组件的当前状态(数据),组建根据状态state呈现出不同的UI展示,state更改，组件就会自动调用render重新渲染UI
+  * 组件的生命周期:
+  * 合成事件会以事件委托的方式绑定到组件最上层，在组建卸载时自动销毁绑定的事件
+  * 原生事件
+  * findDomNode():当组件加载到页面上之后，可以通过react-dom提供的findDOMNode()方法拿到组件对应的DOM元素
+  * Refs:另外一种方式通过在要引用的DOM元素上设置一个ref属性指定名称，通过this.reds.name来访问对应的DOM元素
+  * 组件间通讯:1、父子组件间通讯,可通过props属性传递，在父组件给子组件设置props,然后子组建通过props访问到父组建的数据和方法
+  * 非父子组件通讯使用全局事件Pu/Sub模式，在componentDidMount里面订阅时间，
+  */
 //
