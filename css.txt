@@ -1,0 +1,5 @@
+1、css的布局样式
+block:块级元素,一个块级元素会新开始一行并且尽可能撑满容器。（div,p,from）
+inline:行内元素,一个行内元素可以在段落中包裹一些文字而不会打乱段落的布局(a)
+float:浮动布局
+flex:流式布局 属性:1、flex-direction决定主轴方向,flex-wrap:决定是否换行,flex-flow:flex-start
